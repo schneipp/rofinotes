@@ -1,4 +1,17 @@
 # note
+<div align="center">
+
+**Stop context-switching. Start capturing thoughts.**
+
+Press a hotkey. Type your thought. Press Enter. Done.
+
+Your brain works in milliseconds. Your note-taking tool should too.
+
+`./install.sh` and never lose an idea again.
+
+</div>
+
+---
 
 > The fastest way to capture your thoughts. Zero friction, maximum speed.
 
@@ -256,15 +269,3 @@ Found a bug? Have an idea? PRs welcome!
 MIT - Because good tools should be free.
 
 ---
-
-<div align="center">
-
-**Stop context-switching. Start capturing thoughts.**
-
-Press a hotkey. Type your thought. Press Enter. Done.
-
-Your brain works in milliseconds. Your note-taking tool should too.
-
-`./install.sh` and never lose an idea again.
-
-</div>
