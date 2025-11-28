@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Quick Note
+Comment=Capture a quick note using rofi
+Exec=bash -c 'if [ -x "$HOME/.local/bin/note-wrapper.sh" ]; then "$HOME/.local/bin/note-wrapper.sh"; elif [ -x "/usr/local/bin/note-wrapper.sh" ]; then "/usr/local/bin/note-wrapper.sh"; else note-wrapper.sh; fi'
+Icon=accessories-text-editor
+Terminal=false
+Type=Application
+Categories=Utility;TextEditor;
+Keywords=note;notes;memo;text;
+StartupNotify=false

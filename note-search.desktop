@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Search Notes
+Comment=Search and browse your notes with rofi
+Exec=bash -c 'if [ -x "$HOME/.local/bin/note-search-wrapper.sh" ]; then "$HOME/.local/bin/note-search-wrapper.sh"; elif [ -x "/usr/local/bin/note-search-wrapper.sh" ]; then "/usr/local/bin/note-search-wrapper.sh"; else note-search-wrapper.sh; fi'
+Icon=system-search
+Terminal=false
+Type=Application
+Categories=Utility;TextEditor;
+Keywords=note;notes;search;find;browse;
+StartupNotify=false
